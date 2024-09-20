@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.">
+    <title>Responsive Web</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f0f0f0;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 1rem;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-links li {
+            margin-left: 1rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 1rem;
+        }
+
+        .box {
+            width: 48%;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .image-container img {
+            width: 48%;
+            margin-bottom: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .box {
+                width: 100%;
+            }
+
+            .image-container img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <body style="background-color: brown;">
+    <header>
+        <h1>THIS IS RESPONSIVE WEB</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#">SIGN IN</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="box">
+            <h1></h1>
+            <p>This is some text for You can add more content here.</p>
+        </div>
+
+        <div class="box">
+            <h1></h1>
+            <p>This is some text for  You can add more content here.</p>
+        </div>
+        <img src="image1.jpg" alt="Image 1">
+        <img src="image2.jpg" alt="Image 2">
+        <img src="image3.jpg" alt="Image 3">
+        <img src="image4.jpg" alt="Image 4">
+ 
+        
+        </div>
+    </main>
+</body>
+</html>
